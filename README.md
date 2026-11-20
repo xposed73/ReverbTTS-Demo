@@ -4,6 +4,14 @@ A local web UI for [Software Mansion’s Reverb-TTS](https://huggingface.co/soft
 
 Built with Gradio and the official `reverb-tts` Python package. Speech generation runs on the computer hosting the app.
 
+## Screenshots
+
+| Preset voice generation | Voice cloning and settings |
+| --- | --- |
+| ![Reverb TTS preset mode with a generated waveform and generation details](docs/screenshots/preset-voice.jpg) | ![Reverb TTS voice-cloning form with reference audio, transcript, language, speed, sampling steps, and seed controls](docs/screenshots/voice-cloning.jpg) |
+
+Actual captures of the local Gradio UI. The preset example shows a completed generation on Apple MPS; the cloning view shows the reference-input form before generation.
+
 ## Features
 
 - **16 preset voices**, including narration, whispering, and expressive voices.
